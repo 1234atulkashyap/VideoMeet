@@ -5,14 +5,14 @@ import VideoPage from "./components/VideoPage.jsx"
 
 function App() {
   return (
-    <>
+    <div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage/>}></Route>
           <Route path="/room/:id" element={<VideoPage/>}></Route>
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 

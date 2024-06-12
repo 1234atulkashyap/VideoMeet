@@ -35,7 +35,7 @@ const VideoPage = () => {
   };
 
   return (
-    <div ref={myMeeting}>VideoPage {id}</div>
+    <div ref={myMeeting}></div>
   );
 };
 
